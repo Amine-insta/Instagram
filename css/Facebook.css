@@ -1,0 +1,100 @@
+/* Resetting some default styles */
+body, h1, h2, h3, p, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Styling for the login box */
+.login-box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Facebook logo styling */
+.logo img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+/* Form input fields */
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Login button styling */
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #165eab;
+}
+
+/* Styling for the OR separator */
+.or-separator {
+    margin: 20px 0;
+}
+
+.or-separator span {
+    font-size: 14px;
+    color: #65676b;
+}
+
+/* Link styling */
+a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for forgot password and create account links */
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+}
+
+.create-account {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+}
